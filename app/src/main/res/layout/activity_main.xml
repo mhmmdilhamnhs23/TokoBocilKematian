@@ -8,11 +8,12 @@
     tools:context=".MainActivity">
 
 
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="270dp"
-        android:background="@drawable/backgraund"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/background"
         android:orientation="vertical">
 
     </LinearLayout>
@@ -61,7 +62,9 @@
                     android:text="Chat"
                     android:textColor="#000"
                     android:textSize="20dp"
-                    android:textStyle="bold"
+                    android:textStyle="bold" >
+
+                </TextView>
 
 
                 <ImageView
@@ -82,7 +85,9 @@
                     android:text="home"
                     android:textColor="#000"
                     android:textSize="20dp"
-                    android:textStyle="bold"
+                    android:textStyle="bold">
+
+                </TextView>
 
                 <ImageView
                     android:layout_width="110dp"
@@ -102,7 +107,9 @@
                     android:text="Setting"
                     android:textColor="#000"
                     android:textSize="20dp"
-                    android:textStyle="bold"
+                    android:textStyle="bold" >
+
+                </TextView>
             </LinearLayout>
 
 
@@ -127,7 +134,9 @@
                     android:text="Akun"
                     android:textColor="#000"
                     android:textSize="20dp"
-                    android:textStyle="bold"
+                    android:textStyle="bold" >
+
+                </TextView>
 
                 <ImageView
                     android:layout_width="110dp"
@@ -144,7 +153,9 @@
                     android:text="List"
                     android:textColor="#000"
                     android:textSize="20dp"
-                    android:textStyle="bold"
+                    android:textStyle="bold" >
+
+                </TextView>
 
                 <ImageView
                     android:layout_width="110dp"
@@ -161,7 +172,9 @@
                     android:text="Belanja"
                     android:textColor="#000"
                     android:textSize="20dp"
-                    android:textStyle="bold"
+                    android:textStyle="bold" >
+
+                </TextView>
             </LinearLayout>
 
         </LinearLayout>
